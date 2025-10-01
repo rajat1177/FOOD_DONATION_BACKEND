@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Fresh Organic Apples",
+    "description": "A batch of fresh, organic apples straight from the farm.",
+    "category": "Fruits",
+    "quantity": 50,
+    "expirationDate": "2024-12-31T00:00:00.000Z",
+    "location": {
+      "address": "123 Orchard St, Apple Valley",
+      "coordinates": [-123.365644, 48.428421]
+    },
+    "photos": [
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/apple.jpg",
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/apple2.jpg"
+    ],
+    "postedBy": "507f1f77bcf86cd799439011"
+  },
+  {
+    "title": "Organic Carrots",
+    "description": "A batch of freshly harvested organic carrots, perfect for soups and salads.",
+    "category": "Vegetables",
+    "quantity": 100,
+    "expirationDate": "2024-11-30T00:00:00.000Z",
+    "location": {
+      "address": "456 Farm Rd, Greenfield",
+      "coordinates": [-123.250644, 48.380421]
+    },
+    "photos": [
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/carrots.jpg",
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/carrots2.jpg"
+    ],
+    "postedBy": "507f1f77bcf86cd799439012"
+  },
+  {
+    "title": "Locally Made Cheddar Cheese",
+    "description": "Cheddar cheese made from local farms, aged to perfection.",
+    "category": "Dairy",
+    "quantity": 30,
+    "expirationDate": "2025-01-15T00:00:00.000Z",
+    "location": {
+      "address": "789 Dairy Ln, Cheddar City",
+      "coordinates": [-122.790644, 48.420421]
+    },
+    "photos": [
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/cheddar.jpg",
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/cheddar2.jpg"
+    ],
+    "postedBy": "507f1f77bcf86cd799439013"
+  },
+  {
+    "title": "Freshly Baked Whole Wheat Bread",
+    "description": "Whole wheat bread, freshly baked and packed with nutrients.",
+    "category": "Bakery",
+    "quantity": 40,
+    "expirationDate": "2024-11-25T00:00:00.000Z",
+    "location": {
+      "address": "101 Baker St, Wheatfield",
+      "coordinates": [-122.380644, 48.410421]
+    },
+    "photos": [
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/bread.jpg",
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/bread2.jpg"
+    ],
+    "postedBy": "507f1f77bcf86cd799439014"
+  },
+  {
+    "title": "Free-Range Chicken Eggs",
+    "description": "Fresh eggs from free-range chickens, laid this morning!",
+    "category": "Poultry",
+    "quantity": 200,
+    "expirationDate": "2024-12-05T00:00:00.000Z",
+    "location": {
+      "address": "202 Egg Farm Rd, Eggtown",
+      "coordinates": [-123.500644, 48.450421]
+    },
+    "photos": [
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/eggs.jpg",
+      "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/eggs2.jpg"
+    ],
+    "postedBy": "507f1f77bcf86cd799439015"
+  }
+]

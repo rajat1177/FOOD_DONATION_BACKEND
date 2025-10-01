@@ -1,0 +1,156 @@
+[
+    {
+      "_id": "701a6f4c23e9a8d9fbf1325",
+      "name": "John111",
+      "email": "john111@example11.com",
+      "password": "$2b$10$odvyimxUe5HNE69wF6tnqepPAGSWEY.aX7DlMdkeq6j/oqnqSb6TS",
+      "role": "individual",
+      "status": "active",
+      "profilePicture": "https://ath2.unileverservices.com/wp-content/uploads/sites/3/2017/09/pic.jpg",
+      "emailVerified": true,
+      "rating": 3,
+      "donationHistory": [],
+      "foodItems": [],
+      "reviews": [],
+      "createdAt": "2024-11-21T15:00:42.618+00:00",
+      "updatedAt": "2024-11-22T20:20:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "701b8db4e2b1d7f9abf1357",
+      "name": "Alice123",
+      "email": "alice123@example.com",
+      "password": "$2b$10$eHxk1vF6dPY5Qrc4k1Q53OZs8bXt0hRlVg2eqbEKhMwSCqlX8lGy6",
+      "role": "admin",
+      "status": "active",
+      "profilePicture": "https://example.com/profiles/alice.jpg",
+      "emailVerified": true,
+      "rating": 5,
+      "donationHistory": [],
+      "foodItems": ["item1", "item2"],
+      "reviews": [
+        {
+          "reviewer": "701a6f4c23e9a8d9fbf1325",
+          "comment": "Great user!",
+          "rating": 5
+        }
+      ],
+      "createdAt": "2024-11-19T10:00:42.618+00:00",
+      "updatedAt": "2024-11-20T10:20:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "701c3ed36f90d8f9cbf1369",
+      "name": "Bob456",
+      "email": "bob456@example.com",
+      "password": "$2b$10$Lfdtygjsfq8C.2PwnOdTKbIbVgiJbs8eFwvD3M6Pf2pVZsaNKTeym",
+      "role": "individual",
+      "status": "suspended",
+      "profilePicture": "https://example.com/profiles/bob.jpg",
+      "emailVerified": false,
+      "rating": 2,
+      "donationHistory": [],
+      "foodItems": [],
+      "reviews": [],
+      "createdAt": "2024-11-18T14:00:42.618+00:00",
+      "updatedAt": "2024-11-18T15:20:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "701d2be47f91d9f9dbf137b",
+      "name": "Charlie789",
+      "email": "charlie789@example.com",
+      "password": "$2b$10$39r5f1KH6jk4w9HFPX6tpFzR17LRJSsNO8XMfmLDOSZ79XlPCkjNW",
+      "role": "admin",
+      "status": "active",
+      "profilePicture": "https://example.com/profiles/charlie.jpg",
+      "emailVerified": true,
+      "rating": 4,
+      "donationHistory": ["Donated $20", "Donated $50"],
+      "foodItems": ["itemA", "itemB"],
+      "reviews": [
+        {
+          "reviewer": "701a6f4c23e9a8d9fbf1325",
+          "comment": "Good user",
+          "rating": 4
+        }
+      ],
+      "createdAt": "2024-11-17T13:30:42.618+00:00",
+      "updatedAt": "2024-11-17T14:50:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "701e4ab24f92eaf9ebf138d",
+      "name": "David101",
+      "email": "david101@example.com",
+      "password": "$2b$10$3jUs13KkmqY7W9PTBaI.zyhmuThCm6z6qqdFshC5Zp1vXc/OA.J7s",
+      "role": "individual",
+      "status": "inactive",
+      "profilePicture": "https://example.com/profiles/david.jpg",
+      "emailVerified": true,
+      "rating": 1,
+      "donationHistory": ["Donated $10"],
+      "foodItems": [],
+      "reviews": [],
+      "createdAt": "2024-11-20T12:00:42.618+00:00",
+      "updatedAt": "2024-11-20T12:45:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "701f1cf83f93fbf9fbf139f",
+      "name": "Eva102",
+      "email": "eva102@example.com",
+      "password": "$2b$10$8iwo2hFDK2h9gSbm9hXYeGHKpW9ofn1e/M5btf3xWy92TMyCR0tUq",
+      "role": "charity",
+      "status": "active",
+      "profilePicture": "https://example.com/profiles/eva.jpg",
+      "emailVerified": true,
+      "rating": 3,
+      "donationHistory": ["Donated $100"],
+      "foodItems": ["itemX", "itemY"],
+      "reviews": [],
+      "createdAt": "2024-11-21T10:00:42.618+00:00",
+      "updatedAt": "2024-11-21T11:20:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "7020a1a65f94dcf9abf1401",
+      "name": "George207",
+      "email": "george207@example.com",
+      "password": "$2b$10$Nlf6pBs4FZkZX22zB9L9pFG4pZXsJ9gk6/2fN7vcHe45IKYclPtSy",
+      "role": "individual",
+      "status": "active",
+      "profilePicture": "https://example.com/profiles/george.jpg",
+      "emailVerified": true,
+      "rating": 4,
+      "donationHistory": [],
+      "foodItems": [],
+      "reviews": [
+        {
+          "reviewer": "701a6f4c23e9a8d9fbf1325",
+          "comment": "Great to work with!",
+          "rating": 4
+        }
+      ],
+      "createdAt": "2024-11-22T08:00:42.618+00:00",
+      "updatedAt": "2024-11-22T09:10:23.415+00:00",
+      "__v": 1
+    },
+    {
+      "_id": "7021a9b27f95edf9bbf1413",
+      "name": "Hannah324",
+      "email": "hannah324@example.com",
+      "password": "$2b$10$k7jaopvq7PpMHRhvFg1hHmXfrOe5e2v8OBWugIwhTxjO8RPWVIZOO",
+      "role": "business",
+      "status": "suspended",
+      "profilePicture": "https://example.com/profiles/hannah.jpg",
+      "emailVerified": true,
+      "rating": 2,
+      "donationHistory": ["Donated $5"],
+      "foodItems": [],
+      "reviews": [],
+      "createdAt": "2024-11-19T17:00:42.618+00:00",
+      "updatedAt": "2024-11-19T18:30:23.415+00:00",
+      "__v": 1
+    }
+]
