@@ -8,7 +8,7 @@ import { verifyOtpController } from '../controllers/verifyOtpController.js';
 import { updatePassword } from '../controllers/updatePassController.js';
 import { resetVerification } from '../controllers/resetVerification.js';
 import { resetPassword } from '../controllers/resetPassword.js';
-import { uploadOnCloudinary } from "../utils/Cloudinary.js";
+import { uploadOnCloudinary } from "../utils/cloudinary.js";
 import { upload } from "../middlewares/multer.js"; 
 const router = express.Router();
 
