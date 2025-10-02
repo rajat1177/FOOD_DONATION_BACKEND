@@ -1,5 +1,5 @@
 import APIFeatures from "../utils/APIFeatures.js";
-import { uploadOnCloudinary } from "../utils/Cloudinary.js";
+import { uploadOnCloudinary } from "../utils/cloudinary.js";
 import FoodListing from "../models/FoodListing.js";
 import User from '../models/user.js'
 import { validationResult } from 'express-validator';
