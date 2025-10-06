@@ -14,10 +14,8 @@ import { loginAdmin } from "./controllers/loginAdmin.js";
 // import auth from './routes/userRoutes';
 const app = express();
 app.use(cors({
-  origin: ['http://food-donation.s3-website-ap-south-1.amazonaws.com'], // your frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
-}))
+  origin: "*"
+}));
 
 
 app.use(cookieParser())
