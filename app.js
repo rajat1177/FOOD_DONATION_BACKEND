@@ -14,9 +14,9 @@ const app = express();
 
 // import auth from './routes/userRoutes';
 const corsOptions = {
-  origin: ["http://food-donation.s3-website.eu-north-1.amazonaws.com"], // your frontend link
+  origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
+  credentials: false // 👈 must be false when origin is '*'
 };
 
 // ✅ Apply CORS middleware
