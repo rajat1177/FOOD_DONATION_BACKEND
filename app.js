@@ -10,12 +10,17 @@ import adminRoutes from './routes/adminRoutes.js'
 import { body } from "express-validator";
 import { authenticateAdmin } from "./middlewares/adminAuthenticate.js";
 import { loginAdmin } from "./controllers/loginAdmin.js";
+const app = express();
 
 // import auth from './routes/userRoutes';
-const app = express();
-app.use(cors({
-  origin: "*"
-}));
+const corsOptions = {
+  origin: ["http://food-donation.s3-website.eu-north-1.amazonaws.com"], // your frontend link
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+};
+
+// ✅ Apply CORS middleware
+app.use(cors(corsOptions));
 
 
 app.use(cookieParser())
