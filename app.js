@@ -13,10 +13,11 @@ import { loginAdmin } from "./controllers/loginAdmin.js";
 
 // import auth from './routes/userRoutes';
 const app = express();
-const corsOptions = {
-  origin: ['http://localhost:5173', 'http://localhost:5174'], // Allow multiple origins
-  credentials: true, // Allow credentials like cookies
-};
+app.use(cors({
+  origin: ['http://food-donation.s3-website-ap-south-1.amazonaws.com'], // your frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}))
 
 
 app.use(cookieParser())
