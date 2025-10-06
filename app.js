@@ -11,12 +11,24 @@ import { body } from "express-validator";
 import { authenticateAdmin } from "./middlewares/adminAuthenticate.js";
 import { loginAdmin } from "./controllers/loginAdmin.js";
 const app = express();
+const allowedOrigins = [
+  "http://localhost:5173", // Vite dev server
+  "http://food-donation.s3-website.eu-north-1.amazonaws.com" // production S3
+];
+
 
 // import auth from './routes/userRoutes';
 const corsOptions = {
-  origin: "*",
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true); // allow Postman / server-to-server
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: false // 👈 must be false when origin is '*'
+  credentials: true, // allow cookies
 };
 
 // ✅ Apply CORS middleware
