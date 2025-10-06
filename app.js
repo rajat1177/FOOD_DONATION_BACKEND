@@ -12,12 +12,10 @@ import { authenticateAdmin } from "./middlewares/adminAuthenticate.js";
 import { loginAdmin } from "./controllers/loginAdmin.js";
 const app = express();
 const allowedOrigins = [
-  "http://localhost:5173", // Vite dev server
-  "http://food-donation.s3-website.eu-north-1.amazonaws.com" // production S3
+  "http://localhost:5173",
+  "http://food-donation.s3-website.eu-north-1.amazonaws.com"
 ];
 
-
-// import auth from './routes/userRoutes';
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin) return callback(null, true); // allow Postman / server-to-server
@@ -28,11 +26,12 @@ const corsOptions = {
     }
   },
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true, // allow cookies
+  credentials: true
 };
 
-// ✅ Apply CORS middleware
-app.use(cors(corsOptions));
+app.use(cors(corsOptions));          // ✅ only once
+app.options('*', cors(corsOptions)); // ✅ allow preflight for all routes
+
 
 
 app.use(cookieParser())
